@@ -1,0 +1,2 @@
+import{useLayoutEffect as o}from"react";var t=function(){o((function(){var o=window.getComputedStyle(document.body).overflow,t=window.getComputedStyle(document.body).marginRight,e=parseFloat(t),n=window.innerWidth-document.body.clientWidth;return document.body.style.marginRight="".concat(n-e,"px"),document.body.style.overflow="hidden",function(){document.body.style.marginRight=t,document.body.style.overflow=o}}),[])};export{t as useScrollLock};
+//# sourceMappingURL=index.mjs.map

@@ -1,0 +1,2 @@
+"use strict";var t=require("react");exports.useScrollLock=function(){t.useLayoutEffect((function(){var t=window.getComputedStyle(document.body).overflow,o=window.getComputedStyle(document.body).marginRight,e=parseFloat(o),n=window.innerWidth-document.body.clientWidth;return document.body.style.marginRight="".concat(n-e,"px"),document.body.style.overflow="hidden",function(){document.body.style.marginRight=o,document.body.style.overflow=t}}),[])};
+//# sourceMappingURL=index.js.map
