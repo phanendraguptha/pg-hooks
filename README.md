@@ -1,15 +1,15 @@
-# @pg/hooks
+# @pg-hubx/hooks
 
 ## Motivation
 
-The movitation for creating @pg/hooks is it provides reusable, well-tested, and optimized custom hooks which are easy to use. For instance, Lot of hooks that are available don't account for scrollbar width which causes layout shift underneath the model. My hooks handle these pesky edge cases out of the box, so you can focus on building your apps. It's the small details that make big difference.
+The movitation for creating @pg-hubx/hooks is it provides reusable, well-tested, and optimized custom hooks which are easy to use. For instance, Lot of hooks that are available don't account for scrollbar width which causes layout shift underneath the model. My hooks handle these pesky edge cases out of the box, so you can focus on building your apps. It's the small details that make big difference.
 
 ## Installation
 
 ```sh
-npm install @pg/hooks
+npm install @pg-hubx
 # or
-yarn add @pg/hooks
+yarn add @pg-hubx
 ```
 
 ### Available hooks
@@ -23,7 +23,7 @@ yarn add @pg/hooks
 1. useScrollLock
 
 ```
-    import { useScrollLock } from "@pg/hooks";
+    import { useScrollLock } from "@pg-hubx";
 
 
     function Modal(){
